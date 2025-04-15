@@ -22,7 +22,10 @@ class Session extends BaseConfig
      * @var class-string<BaseHandler>
      */
     public string $driver = FileHandler::class;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 6eb8e969e6f907eda0a887bc62d007c6e0acbf87
 
     /**
      * --------------------------------------------------------------------------

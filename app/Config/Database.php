@@ -29,11 +29,19 @@ class Database extends Config
         'hostname'     => 'localhost',
         'username'     => '',
         'password'     => '',
+<<<<<<< HEAD
         'database'     => 'ci4',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
+=======
+        'database'     => 'db_ci_auth',
+        'DBDriver'     => 'MySQLi',
+        'DBPrefix'     => '',
+        'pConnect'     => false,
+        'DBDebug'      => (ENVIRONMENT !== 'production'),
+>>>>>>> 6eb8e969e6f907eda0a887bc62d007c6e0acbf87
         'charset'      => 'utf8mb4',
         'DBCollat'     => 'utf8mb4_general_ci',
         'swapPre'      => '',
